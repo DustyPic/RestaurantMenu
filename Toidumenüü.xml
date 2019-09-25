@@ -1,0 +1,17 @@
+﻿<RestaurantMenu>
+  <Item type="Main">
+    <name>French Fries with Chicken</name>
+    <price>$3.50</price>
+    <description>French Fries, Meat (Chicken)</description>
+  </Item>
+  <Item type="Desserts">
+    <name>Belgian Waffles with Maple Syrup</name>
+    <price>$4.95</price>
+    <description>Belgian Waffles, Maple Syrup</description>
+  </Item>
+  <Item type="Drinks">
+    <name>Coca-Cola</name>
+    <price>$1.50</price>
+    <description>Coke</description>
+  </Item>
+</RestaurantMenu>

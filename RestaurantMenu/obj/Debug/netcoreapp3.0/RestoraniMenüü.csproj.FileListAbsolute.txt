@@ -1,0 +1,11 @@
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\bin\Debug\netcoreapp3.0\RestoraniMenüü.exe
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\bin\Debug\netcoreapp3.0\RestoraniMenüü.deps.json
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\bin\Debug\netcoreapp3.0\RestoraniMenüü.runtimeconfig.json
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\bin\Debug\netcoreapp3.0\RestoraniMenüü.runtimeconfig.dev.json
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\bin\Debug\netcoreapp3.0\RestoraniMenüü.dll
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\bin\Debug\netcoreapp3.0\RestoraniMenüü.pdb
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\obj\Debug\netcoreapp3.0\RestoraniMenüü.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\obj\Debug\netcoreapp3.0\RestoraniMenüü.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\obj\Debug\netcoreapp3.0\RestoraniMenüü.AssemblyInfo.cs
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\obj\Debug\netcoreapp3.0\RestoraniMenüü.dll
+C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\obj\Debug\netcoreapp3.0\RestoraniMenüü.pdb

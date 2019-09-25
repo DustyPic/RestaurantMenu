@@ -1,0 +1,17 @@
+﻿<RestaurantMenu>
+  <Item>
+    <name>Belgia Vahvlid</name>
+    <price>$7.95</price>
+    <description>Belgia Vahvlid magusa vahtra siirupiga</description>
+  </Item>
+  <Item>
+    <name>Friikartulid</name>
+    <price>$4.50</price>
+    <description>Maitsvad otse ahjust Friikartulid</description>
+  </Item>
+  <Item>
+    <name>Üllatus Toit</name>
+    <price>$8.50</price>
+    <description>Toit, mida oled alati ihaldanud. Värske riisi ja ahjukanaga, kaetud tomatipastaga</description>
+  </Item>
+</RestaurantMenu>

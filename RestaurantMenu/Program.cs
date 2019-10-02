@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 
 
-namespace RestoraniMenüü
+namespace RestaurantMenu
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace RestoraniMenüü
 
 
 
-            StreamReader sr = new StreamReader(@"C:\Users\opilane\source\repos\RestoraniMenüü\RestoraniMenüü\toidumenüü.xml");
+            StreamReader sr = new StreamReader(@"C:\Users\opilane\source\repos\Naidis2\Menüü.xml");
             XElement RestaurantMenu = XElement.Load(sr);
 
 
@@ -21,16 +21,16 @@ namespace RestoraniMenüü
             foreach (var Item in food)
             {
                 Console.Write(Item.Element("name").Value);
-                var price = Item.Element("price").Elements();
-                foreach (var RestaurantMenu in Item)
+                var Menu = Item.Element("Menu").Elements();
+                foreach (var price in Menu)
                 {
                     Console.Write(String.Format(
                         " {1} on {0}",
-                        RestaurantMenu.Value,
-                        RestaurantMenu.Attribute("type").Value
+                        price.Value,
+                        price.Attribute("type").Value
                     ));
                 }
-                Console.WriteLine();
+                Console.ReadLine();
             }
         }
     }

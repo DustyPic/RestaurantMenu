@@ -1,4 +1,5 @@
 ﻿<RestaurantMenu>
+  <Menu>
   <Item>
     <name>Belgia Vahvlid</name>
     <price>$7.95</price>
@@ -14,4 +15,5 @@
     <price>$8.50</price>
     <description>Toit, mida oled alati ihaldanud. Värske riisi ja ahjukanaga, kaetud tomatipastaga</description>
   </Item>
+  </Menu>
 </RestaurantMenu>

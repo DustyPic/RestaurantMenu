@@ -43,6 +43,12 @@ namespace RestaurantMenu
             if (Choice == "y")
             {
                 Console.WriteLine("Vegan Menu will follow");
+                var vegan = RestaurantMenu.Elements("vegan");
+                foreach (var vegan in Menu)
+                {
+                    Console.WriteLine();
+                }
+                return vegan;
             }
             else if (Choice == "n")
             {

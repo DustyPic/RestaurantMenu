@@ -8,12 +8,12 @@ namespace RestaurantMenu
 {
     class Program
     {
+        static string Choice;
         static void Main(string[] args)
         {
 
 
-
-            StreamReader sr = new StreamReader(@"C:\Users\opilane\source\repos\Naidis2\Menüü.xml");
+            StreamReader sr = new StreamReader(@"C:\Users\opilane\Documents\GitHub\RestaurantMenu\RestaurantMenu\File.xml");
             XElement RestaurantMenu = XElement.Load(sr);
 
 
@@ -30,35 +30,30 @@ namespace RestaurantMenu
                         price.Attribute("type").Value
                     ));
                 }
-                Console.WriteLine();
-                Console.ReadLine();
-            }
-        }
-        public static void Question()
-        {
-            Console.WriteLine("Would you like to see a Vegan Menu then press (y) if no then press (n)?");
-            Choice = Console.ReadLine().ToLower();
-            Console.WriteLine();
 
-            if (Choice == "y")
-            {
-                Console.WriteLine("Vegan Menu will follow");
-                var vegan = RestaurantMenu.Elements("vegan");
-                foreach (var vegan in Menu)
+                Console.WriteLine("Would you like to see a Vegan Menu then press (y) if no then press (n)?");
+                Choice = Console.ReadLine().ToLower();
+                Console.WriteLine();
+
+                if (Choice == "y")
                 {
-                    Console.WriteLine();
+                    Console.WriteLine("Vegan Menu will follow");
+                    var vegan = RestaurantMenu.Elements("vegan");
+                    foreach (var Vegan in Menu)
+                    {
+                        Console.WriteLine();
+                    }
                 }
-                return vegan;
-            }
-            else if (Choice == "n")
-            {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("You Chose No");
-                Console.ResetColor();
-            }
-            else
-            {
-                Console.WriteLine("Wrong Choice");
+                else if (Choice == "n")
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("You Chose No");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.WriteLine("Wrong Choice");
+                }
             }
         }
     }

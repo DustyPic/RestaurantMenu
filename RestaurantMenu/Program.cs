@@ -30,7 +30,29 @@ namespace RestaurantMenu
                         price.Attribute("type").Value
                     ));
                 }
+                Console.WriteLine();
                 Console.ReadLine();
+            }
+        }
+        public static void Question()
+        {
+            Console.WriteLine("Would you like to see a Vegan Menu then press (y) if no then press (n)?");
+            Choice = Console.ReadLine().ToLower();
+            Console.WriteLine();
+
+            if (Choice == "y")
+            {
+                Console.WriteLine("Vegan Menu will follow");
+            }
+            else if (Choice == "n")
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("You Chose No");
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.WriteLine("Wrong Choice");
             }
         }
     }
